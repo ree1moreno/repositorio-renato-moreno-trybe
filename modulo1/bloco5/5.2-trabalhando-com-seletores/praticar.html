@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praticar</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    //1. Acesse o elemento `elementoOndeVoceEsta`.
+    document.querySelector('#elementoOndeVoceEsta');
+
+    //2. Acesse `pai` a partir de `elementoOndeVoceEsta` e adicione uma `color` a ele.
+    document.querySelector('#elementoOndeVoceEsta').parentNode.style.color = 'red';
+    
+    //3. Acesse o `primeiroFilhoDoFilho` e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+    document.getElementById('primeiroFilhoDoFilho').innerHTML = "Primeiro filho do filho";
+
+    //4. Acesse o `primeiroFilho` a partir de `pai` .
+    document.querySelector('#pai').firstElementChild;
+
+    //5. Agora acesse o `primeiroFilho` a partir de `elementoOndeVoceEsta` .
+    document.querySelector('#elementoOndeVoceEsta').previousElementSibling;
+
+    //6. Agora acesse o texto `Atenção!` a partir de `elementoOndeVoceEsta` .
+    document.querySelector('#elementoOndeVoceEsta').nextSibling;
+
+    //7. Agora acesse o `terceiroFilho` a partir de `elementoOndeVoceEsta` .
+    document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
+
+    //8. Agora acesse o `terceiroFilho` a partir de `pai` .
+    document.querySelector('#pai').lastElementChild.previousElementSibling;
+
+    //9. Crie um irmão para elementoOndeVoceEsta .
+    let pai = document.querySelector('#pai');
+    let irmaoOndeEstaVoce = document.createElement('section');
+    irmaoOndeEstaVoce.id = 'irmaoOndeEstaVoce';
+    pai.appendChild(irmaoOndeEstaVoce);
+
+    //10. Crie um filho para elementoOndeVoceEsta .
+    let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+    let filhoOndeVoceEsta = document.createElement('section');
+    filhoOndeVoceEsta.id = 'filhoOndeVoceEsta';
+    elementoOndeVoceEsta.appendChild(filhoOndeVoceEsta);
+
+    //11. Crie um filho para primeiroFilhoDoFilho .
+    let primeiroFilhoDoFilho = document.querySelector ('#primeiroFilhoDoFilho');
+    let outroFilho = document.createElement ('section');
+    outroFilho.id = 'outroFilho';
+    primeiroFilhoDoFilho.appendChild(outroFilho);
+
+    //12. A partir desse filho criado, acesse terceiroFilho .
+    document.getElementById('outroFilho').parentElement.parentElement.nextElementSibling;
+
+    //13. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+    
+    /* document.querySelector('#paiDoPai').firstElementChild.removeChild(primeiroFilho);
+    document.querySelector('#paiDoPai').firstElementChild.removeChild(terceiroFilho);
+    document.querySelector('#paiDoPai').firstElementChild.removeChild(quartoEUltimoFilho);
+    document.querySelector('#paiDoPai').firstElementChild.removeChild(irmaoOndeEstaVoce); */
+
+    let pai2 = document.getElementById('pai');
+
+    for (let i = pai2.childNodes.length - 1; i >= 0; i -= 1) {
+      let filhos = pai2.childNodes[i];
+      if (filhos.id !== 'elementoOndeVoceEsta') {
+        filhos.remove();
+      }
+    }
+
+    let segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+    segundoEUltimoFilhoDoFilho.remove();
+    let filhoOndeVoceEsta2 = document.getElementById('filhoOndeVoceEsta');
+    filhoOndeVoceEsta.remove();
+    let outroFilho2 = document.getElementById('outroFilho');
+    outroFilho.remove();
+  </script>
+</body>
+</html>

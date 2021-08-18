@@ -1,0 +1,67 @@
+ol li {
+  background-color: yellow;
+  max-width: 80%;
+}
+
+ol li:nth-child(even){
+  color:green
+}
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  color: red;
+}
+
+h1 em, h2 em, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.linguagens li:nth-of-type(2n+1) {
+  color: blue
+}
+
+.java {
+  background-color: pink;
+  max-width: 100px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  max-width: fit-content;
+}
+
+#aliados {
+  list-style: none;
+}
+
+#aliados li:hover {
+  font-weight: bold;
+}
+
+#aliados li a[href*="stack"]:hover{
+  color: orange;
+}
+#aliados li a[href*="w3"]:hover{
+  color: green;
+}
+#aliados li a[href*="mozilla"]:hover{
+  color: black;
+}
+#aliados li a[href*="devdocs"]:hover{
+  color: yellow;
+}
+#aliados li a[href*="trybe"]:hover{
+  color: green;
+}

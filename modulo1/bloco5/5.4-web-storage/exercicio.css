@@ -1,0 +1,26 @@
+h1 {
+  font-size: 16px;
+  margin: 0;
+  color: black;
+}
+
+h2 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+#list-background, #list-font-color, #font-size, #list-font-family, #list-line-height {
+  line-height: 12px;
+  display: inline-block;
+  text-align: center;  
+}
