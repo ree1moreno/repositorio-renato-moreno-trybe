@@ -1,0 +1,57 @@
+body {
+  margin: auto;
+  max-width: 100%;
+}
+
+header {
+  margin-bottom: 10px;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0;
+  background-color: rgba(245, 245, 146, 0.349);
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.h5 {
+  margin-right: 6px;
+}
+
+.h6 {
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.moradia {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.apartamento {
+  margin-left: 20px;
+}
+
+#resumo {
+  resize: none;
+}
+
+#botao {
+  margin-bottom: 10px;
+  width: 100px;
+  float: right;
+}
+
+fieldset {
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  background-color: rgba(245, 245, 146, 0.349);
+}
