@@ -11,4 +11,3 @@ for (let index = 0; index < arrayEstados.length; index += 1) {
 
 const botaoEnviar = document.querySelector('#botao');
 
-
