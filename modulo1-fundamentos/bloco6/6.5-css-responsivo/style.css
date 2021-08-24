@@ -80,3 +80,22 @@ p strong {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .card:nth-of-type(3) {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .card:nth-of-type(3) {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p.trick {
+    color: black;
+  }
+}
