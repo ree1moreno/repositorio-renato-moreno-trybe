@@ -1,0 +1,49 @@
+* {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: rgb(192, 124, 76);
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.3em;
+  }
+
+  }
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: rgb(86, 161, 76);
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  }
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: gold;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  }
