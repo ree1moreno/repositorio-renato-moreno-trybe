@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Currículo</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  
+  <!-- Pikaday -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container">
+    <h1 class="display-3 class="h5">Formulário de Currículo</h1>
+    <p class="h4 text-muted">Insira suas informações abaixo</p>
+  </header>
+  <form>
+    <fieldset class="container">
+      <div class="container">
+        <label for="nome" class="h5">Nome Completo</label>
+        <input type="text" name="dados-pessoais" id="nome" maxlength="5" class="form-control input-space" autocomplete="off" required>
+      </div>
+
+      <div class="container">
+        <label for="email" class="h5">E-mail</label>
+        <input type="email" name="dados-pessoais" id="email" maxlength="50" class="form-control input-space" autocomplete="off" required>
+      </div>
+
+      <div class="container">
+        <label for="cpf" class="h5">CPF (apenas números)</label>
+        <input type="text" name="dados-pessoais" id="cpf" minlength="11" class="form-control input-space" maxlength="11" placeholder="ex: 00100200389" autocomplete="off" required>
+      </div>
+
+      <div class="container">
+        <label for="endereco" class="h5">Endereço</label>
+        <input type="text" name="dados-pessoais" id="endereco" maxlength="200" class="form-control input-space" autocomplete="off" required>
+      </div>
+
+      <div class="container">
+        <label for="cidade" class="h5">Cidade</label>
+        <input type="text" name="dados-pessoais" id="cidade" maxlength="28" class="form-control input-space" autocomplete="off" required>
+      </div class="container">
+
+      <div class="container">
+        <label for="estados" class="h5">Estado</label>
+        <select name="dados-pessoais" id="estados" class="form-select input-space" autocomplete="off" required></select>
+      </div>
+
+      <div class="container">
+        <label for="tipo" class="h5">Tipo de Moradia:</label>
+        <div class="container moradia">
+            <label for="casa" class="h6"><strong>Casa</strong></label>
+            <input type="radio" name="dados-pessoais" class="tipo" id="casa" value="Casa" required>        
+            <label for="apartamento" class="h6 apartamento"><strong>Apartamento</strong></label>
+            <input type="radio" name="dados-pessoais" class="tipo" id="apartamento" value="Apartamento" required>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="container">
+      <div class="container">
+        <label for="resumo" class="h5">Resumo do Currículo</label>
+        <textarea name="area-curriculo" id="resumo" cols="30" rows="10" maxlength="1000" class="form-control" placeholder="Faça um breve resumo do seu currículo" required></textarea>
+      </div>
+      <div class="container">
+        <label for="cargo" class="h5">Cargo</label>
+        <input type="text" name="area-curriculo" id="cargo" maxlength="40" class="form-control input-space" autocomplete="off" required>
+      </div>
+      <div class="container">
+        <label for="descricao-cargo" class="h5">Descrição do Cargo</label>
+        <input type="text" name="area-curriculo" id="descricao-cargo" maxlength="500" class="form-control input-space" autocomplete="off" required>
+      </div>
+      <div class="container">
+        <label for="data-inicio" class="h5">Data de Início</label>
+        <input type="text" name="area-curriculo" id="datepicker" class="form-control input-space" placeholder="dd/mm/aaaa" autocomplete="off" required>    
+      </div>
+
+      <div class="container">
+        <button type="submit" id="botao" class="btn btn-warning">Enviar</button>
+      </div>
+    </fieldset>
+  </form>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  
+  <!-- Pikaday -->
+  <script>let picker = new Pikaday({ field: document.getElementById('datepicker') });
+</script>
+
+<script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Comidas Favoritas</h1>
+  <p>Escolha suas 3 comidas favoritas</p>
+  <form action="">
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="lasanha">
+        <label for="lasanha">Lasanha</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="feijoada">
+        <label for="feijoada">Feijoada</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="pizza">
+        <label for="pizza">Pizza</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="churrasco">
+        <label for="churrasco">Churrasco</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="strogonoff">
+        <label for="strogonoff">Strogonoff</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="tacos">
+        <label for="tacos">Tacos</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="bife-parmegiana">
+        <label for="bife-parmegiana">Bife à Parmegiana</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="sushi">
+        <label for="sushi">Sushi</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="hamburger">
+        <label for="hamburger">Hamburger</label>
+      </div>
+      <div>
+        <input type="checkbox"  name="comidas-favoritas" id="acaraje">
+        <label for="acaraje">Acarajé</label>
+      </div>
+      <div>
+        <br>
+        <input type="button" value="Enviar" id="botao">
+      </div>
+      <div id="resposta"></div>
+  </form>
+  <script>
+    function selecionados() {
+      const itens = document.querySelectorAll('[name=comidas-favoritas]:checked');
+      let valores = [];
+      for (let index = 0; index < itens.length; index += 1) {
+        valores.push(itens[index].value)
+       }
+       
+      }
+    
+      const checkBox = document.querySelectorAll('[name=comidas-favoritas');
+      for (let index = 0; index < checkBox.length; index += 1) {
+        checkBox[index].addEventListener('click', selecionados);
+      }
+
+  </script>
+</body>
+</html>

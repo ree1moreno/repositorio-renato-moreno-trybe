@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Currículo</title>
+</head>
+
+<body>
+  <header>
+    <h1>Formulário de Currículo</h1>
+  </header>
+  <form>
+    <fieldset>
+      <div>
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="dados-pessoais" id="nome" maxlength="5" required>
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="dados-pessoais" id="email" maxlength="50" required>
+      </div>
+
+      <div>
+        <label for="cpf">CPF (apenas números)</label>
+        <input type="number" name="dados-pessoais" id="cpf" minlength="11" maxlength="11" required>
+      </div>
+
+      <div>
+        <label for="endereco">Endereço</label>
+        <input type="text" name="dados-pessoais" id="endereco" maxlength="200" required>
+      </div>
+
+      <div>
+        <label for="cidade">Cidade</label>
+        <input type="text" name="dados-pessoais" id="cidade" maxlength="28" required>
+      </div>
+
+      <div>
+        <label for="estados">Estado</label>
+        <select name="dados-pessoais" id="estados" required></select>
+      </div>
+
+      <div>
+        <label for="tipo">Tipo de Moradia:</label>
+        <label for="casa">Casa</label>
+        <input type="radio" name="dados-pessoais" class="tipo" id="casa" value="Casa" required>
+        <label for="apartamento">Apartamento</label>
+        <input type="radio" name="dados-pessoais" class="tipo" id="apartamento" value="Apartamento" required>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="resumo">Resumo do Currículo</label>
+        <textarea name="area-curriculo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+      </div>
+      <div>
+        <label for="cargo">Cargo</label>
+        <input type="text" name="area-curriculo" id="cargo" maxlength="40" required>
+      </div>
+      <div>
+        <label for="descricao-cargo">Descrição do Cargo</label>
+        <input type="text" name="area-curriculo" id="descricao-cargo" maxlength="500" required>
+      </div>
+      <div>
+        <label for="data-inicio">Data de Início</label>
+        <input type="text" name="area-curriculo" id="data-inicio" placeholder="dd/mm/aaaa">    
+      </div>
+
+      <button type="submit" id="botao">Enviar</button>
+    </fieldset>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
