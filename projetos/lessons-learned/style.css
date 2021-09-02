@@ -6,6 +6,8 @@
 
 #main-container {
   background-color: #DEEDCF;
+  max-width: 1280px;
+  margin: auto;
 }
 
 #header-container {
@@ -22,24 +24,24 @@
   padding: 10px;
 }
 
-#links {
+#links-menu {
   width: 500px;
   text-align: center;
 }
 
-#links a {
+#links-menu a {
   text-decoration: none;
   font-size: 18px;
   margin: 0px 5px;
   padding: 1px;
 }
 
-#links a:hover, #footer a:hover {
+#links-menu a:hover , #links a:hover , #footer a:hover {
   background-color: #DEEDCF;
   border-radius: 5px;
 }
 
-#links a:active, #links a:visited, #footer a:active, #footer a:visited {
+#links-menu a:active , #links-menu a:visited , #links a:active , #links a:visited , #footer a:active , #footer a:visited {
   color: #39A96B;
 }
 
@@ -83,6 +85,28 @@ img {
 hr {
   padding: 1.5px;
   background-color: #0b3747;
+  margin: 20px auto 20px;
+}
+
+#habilidades , #links , #hobbies{
+  line-height: 1.5;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#habilidades h2 , #hobbies h2, #links h2 {
+  text-decoration: underline;
+  color: #175e63;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+#habilidades ul , #hobbies ul {
+  list-style: none;
+  font-style: italic;
 }
 
 #footer {
@@ -97,9 +121,7 @@ hr {
 
 #footer p {
   padding: 10px;
-  margin: auto;
 }
-
 
 #footer a {
   text-decoration: none;
@@ -107,11 +129,7 @@ hr {
   padding: 7px;
 }
 
-
-
-
-
-cores {
+/* cores {
   color: #0E4D64;
   color: #137177;
   color: #188977;
@@ -122,4 +140,4 @@ cores {
   color: #99D492;
   color: #BFE1B0;
   color: #DEEDCF;
-}
+} */
