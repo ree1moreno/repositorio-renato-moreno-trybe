@@ -1,16 +1,16 @@
 // Desafio 1
-function compareTrue(a,b) {
+function compareTrue(a, b) {
   // seu código aqui
   if (a === true && b === true) {
     return true;
   }
-    return false;
+  return false;
 }
 
 // Desafio 2
-function calcArea(base,height) {
+function calcArea(base, height) {
   // seu código aqui
-  return base * height / 2;
+  return (base * height) / 2;
 }
 
 // Desafio 3
@@ -57,19 +57,18 @@ function catAndMouse(mouse,cat1,cat2) {
   let distance1 = cat1 - mouse;
   let distance2 = cat2 - mouse;
   if (distance1 < 0) {
-    distance1 = distance1 * -1;
+    distance1 *= -1;
   }
   if (distance2 < 0) {
-    distance2 = distance2 * -1;
+    distance2 *= -1;
   }
   if (distance1 < distance2) {
     return 'cat1';
   }
   if (distance1 > distance2) {
     return 'cat2';
-  } else {
-    return 'os gatos trombam e o rato foge';
   }
+  return 'os gatos trombam e o rato foge';
 }
 
 // Desafio 8
