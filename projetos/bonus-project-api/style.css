@@ -1,0 +1,90 @@
+:root {
+  --branco: rgb(255, 255, 255);
+  --amarelo: rgb(251, 215, 67);
+  --amarelo2: rgb(255, 204, 0);
+  --amarelo3: rgb(213, 161, 0);
+  --vermelho: rgb(255, 31, 31);
+  --azul-claro: rgb(93, 185, 255);
+  --azul-claro2: rgb(0, 117, 190);
+  --azul-escuro: rgb(54, 59, 129);
+  --azul-escuro2: rgb(10, 40, 95);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Rampart One', cursive;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-title h1 {
+  font-size: 4em;
+  margin-left: 30px;
+}
+
+.description {
+  background-color: var(--azul-escuro2);
+  padding: 30px;
+}
+
+.description p {
+  font-family: cursive;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: var(--amarelo2);
+  text-align: center;
+}
+
+.types-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.types-images img {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  cursor: pointer;
+  /* ao passar o mouse aparecer a descrição do tipo */
+}
+
+.choose-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chosen-pokemon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-family: cursive;
+}
+
+.fight-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.advantage , .disadvantage {
+  text-align: center;
+  font-family: cursive;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+}
