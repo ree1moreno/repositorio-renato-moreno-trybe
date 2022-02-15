@@ -10,3 +10,7 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 
 ## Back-End
 [docker-todo-list](docker-todo-list/)
+<br>
+[one-for-all](one-for-all/)
+<br>
+[all-for-one](all-for-one/)
