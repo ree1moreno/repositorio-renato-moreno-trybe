@@ -14,3 +14,5 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 [one-for-all](one-for-all/)
 <br>
 [all-for-one](all-for-one/)
+<br>
+[talker-manager](talker-manager/)
