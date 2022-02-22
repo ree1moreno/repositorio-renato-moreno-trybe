@@ -1,11 +1,11 @@
 {
-  "name": "hello-http-methods",
+  "name": "exercicio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "debug": "nodemon index.js"
   },
   "keywords": [],
   "author": "Renato Moreno",
@@ -14,7 +14,6 @@
     "body-parser": "^1.19.2",
     "express": "^4.17.3",
     "mysql2": "^2.3.3",
-    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.15"
   }
 }
