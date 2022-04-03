@@ -20,6 +20,10 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [zoo-functions](zoo-functions/)
 <br>
+[shopping-cart](shopping-cart/)
+<br>
+[jest](jest/)
+<br>
 
 ## Front-End
 
