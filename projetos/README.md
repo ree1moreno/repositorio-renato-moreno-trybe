@@ -32,6 +32,10 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [blogs-api](blogs-api/)
 <br>
+[stranger-things-backend](stranger-things-backend/)
+<br>
+[stranger-things-frontend](stranger-things-frontend/)
+<br>
 [trybesmith](trybesmith/)
 <br>
 
