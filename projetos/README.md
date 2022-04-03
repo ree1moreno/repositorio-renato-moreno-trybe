@@ -24,8 +24,6 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [jest](jest/)
 <br>
-[react-testing-library](react-testing-library/)
-<br>
 
 ## Front-End
 
@@ -40,6 +38,8 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <a href="https://github.com/ree1moreno/trybewallet">trybewallet</a>
 <br>
 <a href="https://github.com/ree1moreno/recipes-app">recipes-app</a>
+<br>
+[react-testing-library](react-testing-library/)
 <br>
 
 ## Back-End
