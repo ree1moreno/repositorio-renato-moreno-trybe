@@ -32,6 +32,8 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [blogs-api](blogs-api/)
 <br>
+[trybesmith](trybesmith/)
+<br>
 
 ## Bônus
 
