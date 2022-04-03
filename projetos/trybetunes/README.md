@@ -31,3 +31,7 @@ Projeto com objetivo de criar o TrybeTunes, uma aplicação capaz de reproduzir 
 - Criar links de navegação na aplicação com o componente `Link`;
 
 ---
+
+## Página
+
+<p>Acesse a <a href="https://ree1moreno.github.io/trybe-tunes/">página</a>.</p>

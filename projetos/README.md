@@ -35,7 +35,7 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [tryunfo](tryunfo/)
 <br>
-<a href="https://github.com/ree1moreno/trybe-tunes">trybetunes</a>
+[trybetunes](trybetunes/)
 <br>
 
 ## Back-End
