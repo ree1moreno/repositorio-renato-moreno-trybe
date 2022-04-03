@@ -14,6 +14,12 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [color-guess](color-guess/)
 <br>
+[trybewarts](trybewarts/)
+<br>
+[js-unit-tests](js-unit-tests/)
+<br>
+[zoo-functions](zoo-functions/)
+<br>
 
 ## Front-End
 

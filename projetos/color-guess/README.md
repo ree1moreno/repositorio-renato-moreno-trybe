@@ -1,4 +1,4 @@
-# Projeto de Adivinhação de Cor!
+# Projeto de Adivinhação de Cor
 
 Projeto com objetivo de desenvolver uma aplicação utilizando JavaScript, HTML5 e CSS3.
 
