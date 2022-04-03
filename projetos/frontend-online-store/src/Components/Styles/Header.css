@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.header-logo {
+  height: 120px;
+  width: 120px;
+}
+
+.header-title {
+  font-size: 3.5em;
+}

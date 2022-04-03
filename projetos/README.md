@@ -24,18 +24,22 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [jest](jest/)
 <br>
+[react-testing-library](react-testing-library/)
+<br>
 
 ## Front-End
 
 <a href="https://github.com/ree1moreno/movie-cards-library">movie-cards-library</a>
 <br>
-<a href="https://github.com/ree1moreno/trybewallet">trybewallet</a>
-<br>
-<a href="https://github.com/ree1moreno/recipes-app">recipes-app</a>
-<br>
 [tryunfo](tryunfo/)
 <br>
 [trybetunes](trybetunes/)
+<br>
+[frontend-online-store](frontend-online-store/)
+<br>
+<a href="https://github.com/ree1moreno/trybewallet">trybewallet</a>
+<br>
+<a href="https://github.com/ree1moreno/recipes-app">recipes-app</a>
 <br>
 
 ## Back-End
