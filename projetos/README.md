@@ -8,6 +8,12 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [playground-functions](playground-functions/)
 <br>
+[pixels-art](pixels-art/)
+<br>
+[todo-list](todo-list/)
+<br>
+[color-guess](color-guess/)
+<br>
 
 ## Front-End
 
