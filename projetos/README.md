@@ -33,6 +33,10 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 <a href="https://github.com/ree1moreno/recipes-app">recipes-app</a>
 <br>
+[tryunfo](tryunfo/)
+<br>
+<a href="https://github.com/ree1moreno/trybe-tunes">trybetunes</a>
+<br>
 
 ## Back-End
 
