@@ -41,6 +41,10 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [react-testing-library](react-testing-library/)
 <br>
+[trivia-react-redux](trivia-react-redux/)
+<br>
+[starwars-planets-search](starwars-planets-search/)
+<br>
 
 ## Back-End
 

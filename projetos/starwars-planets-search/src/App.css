@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 40px;
+  text-align: center;
+}
+
+/* .filter-box {
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#name-filter {
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px auto;
+  text-indent: 10px;
+  width: 300px;
+}
+
+.filter-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.select-filter {
+  border-radius: 10px;
+  margin: 0 10px 0 5px;
+  padding: 3px;
+  text-transform: capitalize;
+  width: 125px;
+}
+
+#value-filter {
+  border-radius: 10px;
+  margin: 0 10px 0 5px;
+  padding: 3px;
+  text-align: center;
+  text-indent: 10px;
+  width: 100px;
+}
+
+#filter-button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 3px;
+  width: 80px;
+}
+
+#filter-button:hover {
+  background-color: black;
+  color: white;
+}
+
+table {
+  margin: 40px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  border-radius: 3px;
+  height: 70px;
+  padding: 7px;
+  text-transform: capitalize;
+}
+
+td {
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  border-radius: 3px;
+  height: 80px;
+  padding: 2px 7px;
+}
+
+button {
+  margin: 0 auto;
+}
