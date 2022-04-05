@@ -1,0 +1,17 @@
+{
+  "name": "27.2-Heranca-e-Interfaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Renato Moreno",
+  "license": "ISC"
+}
