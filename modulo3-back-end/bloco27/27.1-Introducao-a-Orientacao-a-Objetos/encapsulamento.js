@@ -50,12 +50,12 @@ console.log(p1.height);
 p2.age = 300;
 console.log(p2.age);
 // Saída: 17
-// Agora um exemplo de sintaxes que são inválidas neste contexto:
-// Acesso externo à classe a atributo privado
-p1._weight;
-p1._weight = 1;
-// Acesso a atributo inexistente
-p1.weight;
-p1.weight = 1;
-// Escrita em atributo readonly
-p1.height = 1;
+// // Agora um exemplo de sintaxes que são inválidas neste contexto:
+// // Acesso externo à classe a atributo privado
+// p1._weight;
+// p1._weight = 1;
+// // Acesso a atributo inexistente
+// p1.weight;
+// p1.weight = 1;
+// // Escrita em atributo readonly
+// p1.height = 1;
