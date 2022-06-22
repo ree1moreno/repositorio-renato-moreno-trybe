@@ -68,6 +68,8 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [trybers-and-dragons](trybers-and-dragons/)
 <br>
+[trybe-futebol-clube](trybe-futebol-clube/)
+<br>
 [mongodb-commerce](mongodb-commerce/)
 <br>
 [car-shop](car-shop/)
