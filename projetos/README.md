@@ -66,6 +66,9 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 <br>
 [trybesmith](trybesmith/)
 <br>
+<br>
+[trybers-and-dragons](trybers-and-dragons/)
+<br>
 
 ## Bônus
 
