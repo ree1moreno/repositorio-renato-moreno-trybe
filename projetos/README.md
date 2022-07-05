@@ -75,6 +75,11 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 [car-shop](car-shop/)
 <br>
 
+## Ciência da Computação
+
+[job-insights](job-insights/)
+<br>
+
 ## Bônus
 
 <a href="https://github.com/ree1moreno/pokeTypes">pokeTypes</a>
