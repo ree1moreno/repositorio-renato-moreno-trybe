@@ -79,6 +79,14 @@ Pasta que contém alguns dos projetos realizados durante as avaliações ao fina
 
 [job-insights](job-insights/)
 <br>
+[inventory-report](inventory-report/)
+<br>
+[tech-news](tech-news/)
+<br>
+[algorithms](algorithms/)
+<br>
+[project-ting](project-ting/)
+<br>
 
 ## Bônus
 
