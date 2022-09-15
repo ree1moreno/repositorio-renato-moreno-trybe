@@ -1,62 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paleta de Cores</title>
+  <title>Pixels Art</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1 id="title">Paleta de Cores</h1>
-    
-  <ul id="color-palette">
-    <li class="color" id="black"></li>
-    <li class="color" id="red"></li>
-    <li class="color" id="blue"></li>
-    <li class="color" id="green"></li>
-  </ul>
-  
-  <button id="clear-board">Limpar</button>
+  <main>
+    <div class="container">
 
-  <section id="pixel-board">
-    <div class="line">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="line">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="line">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="line">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="line">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-  </section>
+      <h1 id="title">Paleta de Cores</h1>
 
-  <script src="script.js"></script>
+      <div id="color-palette"></div>
+
+      <div class="container-board-size">
+        <input id="board-size" type="number" min="5" max="30" placeholder="escolha um número de 5 a 30">
+        <button type="button" id="generate-board">Gerar Quadro</button>
+      </div>
+
+      <button type="button" id="clear-board">Limpar Quadro</button>
+
+      <div id="pixel-board"></div>
+
+    </div>
+  </main>
+
+
+  <script src="index.js"></script>
 </body>
+
 </html>

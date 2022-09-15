@@ -1,39 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+#title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+}
+
 .color {
   border: 1px solid black;
-  list-style-type: none;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
 }
 
-#black {
-  background-color: black;
-}
-
-#red {
-  background-color: red;
-}
-
-#blue {
-  background-color: blue;
-}
-
-#green {
-  background-color: green;
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .pixel {
   background-color: white;
-  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  cursor: cell;
   height: 40px;
-  border: 1px solid black;
+  width: 40px;
 }
 
-.line .pixel {
-  display: inline-block;
+.container-board-size,
+.container-colors-generate {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+}
+
+#board-size,
+#colors-generate {
+  width: 250px;
+}
+
+#board-size::placeholder,
+#colors-generate::placeholder {
+  text-align: center;
+}
+
+#generate-board,
+#generate-colors {
+  border: transparent;
+  background-color: chocolate;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 6px 8px;
+  text-transform: uppercase;
+  min-width: 130px;
 }
 
 #clear-board {
-  margin-bottom: 15px;
-  width: 60px;
+  border: transparent;
+  background-color: rgb(102, 48, 6);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 6px 8px;
+  text-transform: uppercase;
 }
